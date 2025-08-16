@@ -1,7 +1,7 @@
 * {
-  box-sizing:border-box;
-padding:0;
-margin:0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 .search {
   display: flex;
@@ -32,7 +32,6 @@ div.ContainerCidade {
   background-color: #be69b0;
   color: white;
   padding: 20px;
-
 }
 div.ContainerCidade p {
   font-weight: bold;
