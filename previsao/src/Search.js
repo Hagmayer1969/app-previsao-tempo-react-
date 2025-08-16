@@ -40,11 +40,11 @@ function Search(props){
 
             const {main, name, sys, weather} = data;
 
-            if(sys != undefined){
+            if(sys !== undefined){
 
                 
 
-            if(weather != undefined){
+            if(weather !== undefined){
 
                 
 
@@ -114,7 +114,7 @@ function Search(props){
 
         {
 
-            (cidade!= "")?
+            (cidade!== "")?
 
             <div dangerouslySetInnerHTML={{__html: cidade}} />:
 
