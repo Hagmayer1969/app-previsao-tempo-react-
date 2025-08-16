@@ -1,1 +1,14 @@
-
+{
+  "builds": [
+    {
+      "src": "previsao/package.json",
+      "use": "@vercel/static-build"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "previsao/$1"
+    }
+  ]
+}
