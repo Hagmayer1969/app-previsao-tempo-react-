@@ -71,7 +71,7 @@ function Search(props) {
       {cidade !== "" ? (
         <div dangerouslySetInnerHTML={{ __html: cidade }} />
       ) : (
-        <div>Pesquise por algo acima...</div>
+        <div className="pesquise-texto">Pesquise por algo acima...</div>
       )}
     </div>
   );

@@ -38,3 +38,16 @@ div.ContainerCidade p {
   margin: 5px 0;
   padding: 20px;
 }
+
+.pesquise-texto {
+  color: #eee1ddff;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+  background-color: #9b3da3ff;
+  border-radius: 8px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+}
